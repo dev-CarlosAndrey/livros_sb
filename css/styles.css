@@ -25,6 +25,7 @@
 }
 
 html{
+
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 5rem;
@@ -58,5 +59,18 @@ html::-webkit-scrollbar-thumb{
     font-size: 1.7rem;
 }
 
+.header .header-2 .navbar a:hover {
+    background: var(--dark-color);
+}
+
+.header .header-2.active {
+    position: fixed;
+    top: 0; left: 0; left: 0;
+    z-index: 1000;
+}
+
+body {
+    height: 300rem;
+}
 
 
